@@ -140,7 +140,7 @@ export default function App() {
 
         {/* SUBTITLE: SAVE YOUR MEMORY */}
         <div className="relative">
-          <h2 className="font-cinzel text-sm sm:text-base md:text-lg lg:text-xl font-bold tracking-[0.38em] sm:tracking-[0.45em] text-[#1A0C04] uppercase text-wrap-balance drop-shadow-[0_1px_2px_rgba(255,255,255,0.8)] pl-[0.38em]">
+          <h2 className="font-cinzel text-sm sm:text-base md:text-lg lg:text-xl font-bold tracking-[0.38em] sm:tracking-[0.45em] text-[#1A0C04] uppercase text-wrap-balance drop-shadow-[0_1px_2px_rgba(255,255,255,0.85)] pl-[0.38em]">
             SAVE YOUR MEMORY
           </h2>
         </div>

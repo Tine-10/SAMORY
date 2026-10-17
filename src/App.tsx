@@ -120,7 +120,7 @@ export default function App() {
 
         {/* PRIMARY BRAND TITLE: SAMORY */}
         <div className="relative mb-3 sm:mb-4">
-          <h1 className="font-editorial text-6xl sm:text-8xl md:text-9xl font-normal tracking-[0.04em] text-[#3B2213] leading-none drop-shadow-sm select-none hover:scale-[1.02] transition-transform duration-500">
+          <h1 className="font-editorial text-6xl sm:text-8xl md:text-9xl font-normal tracking-[0.04em] text-[#1A0C04] leading-none drop-shadow-[0_1px_2px_rgba(255,255,255,0.7)] select-none hover:scale-[1.02] transition-transform duration-500">
             SAMORY
           </h1>
         </div>
@@ -136,13 +136,13 @@ export default function App() {
 
         {/* SUBTITLE: SAVE YOUR MEMORY */}
         <div className="relative">
-          <h2 className="font-cinzel text-sm sm:text-base md:text-lg lg:text-xl font-medium tracking-[0.38em] sm:tracking-[0.45em] text-[#593E2B] uppercase text-wrap-balance drop-shadow-sm pl-[0.38em]">
+          <h2 className="font-cinzel text-sm sm:text-base md:text-lg lg:text-xl font-bold tracking-[0.38em] sm:tracking-[0.45em] text-[#1A0C04] uppercase text-wrap-balance drop-shadow-[0_1px_2px_rgba(255,255,255,0.8)] pl-[0.38em]">
             SAVE YOUR MEMORY
           </h2>
         </div>
 
         {/* Warm Poetic Note */}
-        <p className="mt-4 sm:mt-5 max-w-md text-xs sm:text-sm text-[#6E5846] font-editorial italic tracking-wide leading-relaxed px-4">
+        <p className="mt-4 sm:mt-5 max-w-md text-xs sm:text-sm text-[#241208] font-editorial italic font-medium tracking-wide leading-relaxed px-4 drop-shadow-[0_1px_1px_rgba(255,255,255,0.7)]">
           "Nơi từng khoảnh khắc được nâng niu và cất giữ vẹn nguyên cùng thời gian."
         </p>
       </main>

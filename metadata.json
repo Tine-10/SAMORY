@@ -1,6 +1,8 @@
 {
   "name": "Samory — Save Your Memory",
-  "description": "Trang web thanh lịch và hiện đại lưu giữ kỷ niệm với âm nhạc nhẹ nhàng và hình nền ấm áp.",
+  "description": "Lưu giữ kỷ niệm cùng SAMORY",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

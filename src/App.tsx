@@ -7,6 +7,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { Sparkles, Heart, Volume2 } from 'lucide-react';
 import { soundManager } from './utils/audioEngine';
 import { AudioPlayer } from './components/AudioPlayer';
+import { FloatingHearts } from './components/FloatingHearts';
 
 // High-fidelity background image matching the user's uploaded illustration
 import logoArtBg from './assets/images/samory_logo_art_1792249381436.jpg';
@@ -92,6 +93,9 @@ export default function App() {
           style={{ animationDelay: '4s' }}
         />
       </div>
+
+      {/* Floating Hearts Animation Layer */}
+      <FloatingHearts />
 
       {/* Top spacer (all toolbars removed) */}
       <div className="w-full h-12 relative z-10 pointer-events-none" />
